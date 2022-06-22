@@ -15,7 +15,7 @@ public class Conexion {
     private String user = "root";
     private String password = "";
     private String server = "localhost";
-    private String port = "3307";
+    private String port = "3306";
     private String database = "lapaletadb";
     private String url = "jdbc:mysql://" + server + ":" + port + "/" + database;
 
